@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InstagramUserInfo">
+
+    <TextView
+        android:layout_margin="32dp"
+        android:text="로그아웃"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#3F51B5"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/logout"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/all_list"
+            android:layout_width="0dp"
+            android:text="전체"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/my_list"
+            android:layout_width="0dp"
+            android:text="본인"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/upload"
+            android:layout_width="0dp"
+            android:text="업로드"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/user_info"
+            android:layout_width="0dp"
+            android:text="내 정보"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
